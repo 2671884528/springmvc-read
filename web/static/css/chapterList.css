@@ -1,0 +1,86 @@
+
+body{
+    background-color: aliceblue;
+    font-size: 12px;
+}
+.book_con {
+    width: 1096px;
+    height: 220px;
+    margin: auto;
+    border: 2px solid #88C6E5;
+}
+.book_con .image {
+    width: 180px;
+    height: 220px;
+    float: left;
+}
+.image img {
+    width: 120px;
+    height: 150px;
+    padding: 15px 15px;
+    margin: 20px 15px;
+    background-color: gainsboro;
+}
+.book_con .book_con_right {
+    width: 916px;
+    height: 220px;
+    float: left;
+}
+.book_con_right .book_name {
+    width: 916px;
+    height: 63px;
+    padding: 0px;
+    margin: 0px;
+}
+.book_name h1 {
+    width: 896px;
+    height: 31px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin: 0px;
+}
+.book_author {
+    width: 896px;
+    height: 25px;
+    padding-top: 4px;
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 13pt;
+}
+.box_con {
+    width: 1096px;
+    border: 2px solid #88C6E5;
+    margin: 2px auto;
+    overflow: hidden;
+}
+.box_con dl {
+    width: 1096px;
+    margin: 0px auto;
+}
+.box_con dl dt {
+    width: 1084px;
+    margin: 6px;
+    background-color: #C3DFEA;
+}
+.box_con dl dt h1 {
+    margin: 0px;
+    width: 1084px;
+    line-height: 63px;
+    text-align: center;
+}
+.box_con dl dd {
+    width: 359px;
+    height: 26px;
+    float: left;
+    margin-left: 6px;
+    margin-bottom: 8px;
+    border-bottom: 1px dashed #CCC;
+    text-align: left;
+}
+.box_con dl dd a{
+    text-decoration: none;
+    color: #000;
+}
+.box_con dl dd a:hover{
+    text-decoration: underline;
+}
